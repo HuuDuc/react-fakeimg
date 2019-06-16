@@ -19,72 +19,42 @@ yarn add react-fakeimg
 
 ### Simple example
 
-![simple example](https://raw.githubusercontent.com/HuuDuc/react-fakeimg/master/public/first-example.png "Simple example")
-
 ```js
-import FakeImg from 'react-fakeimg'
+import FakeImg from 'react-fakeimg';
 
-class SimpleExample {
-
-  render() {
-    return (
-      <FakeImg
-        alt="example"
-        width={500}
-        height={200}
-      />
-    );
-  }
-
-}
+<FakeImg
+  alt="example"
+  width={500}
+  height={200}
+/>
 ```
 
 ### Text example
 
-![text example](https://raw.githubusercontent.com/HuuDuc/react-fakeimg/master/public/text-example.png "Text example")
-
 ```js
-import FakeImg from 'react-fakeimg'
+import FakeImg from 'react-fakeimg';
 
-class TextExample {
-
-  render() {
-    return (
-      <FakeImg
-        alt="example"
-        width={500}
-        height={200}
-        text="Bonjour!"
-      />
-    );
-  }
-
-}
+<FakeImg
+  alt="example"
+  width={500}
+  height={200}
+  text="Bonjour!"
+/>
 ```
 
 ### Change color example
 
-![change color example](https://raw.githubusercontent.com/HuuDuc/react-fakeimg/master/public/color-example.png "Change Color example")
-
 ```js
-import FakeImg from 'react-fakeimg'
+import FakeImg from 'react-fakeimg';
 
-class ChangeColorExample {
-
-  render() {
-    return (
-      <FakeImg
-        alt="example"
-        width={500}
-        height={200}
-        text="New color"
-        bgColor="#005cc5"
-        fontColor="#ffffff"
-      />
-    );
-  }
-
-}
+<FakeImg
+  alt="example"
+  width={500}
+  height={200}
+  text="New color"
+  bgColor="#005cc5"
+  fontColor="#ffffff"
+/>
 ```
 
 ## API
