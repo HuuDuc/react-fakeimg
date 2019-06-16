@@ -2,7 +2,7 @@
     "author": "Stéphane Nguyen",
     "license": "MIT",
     "name": "react-fakeimg",
-    "version": "0.0.3",
+    "version": "0.1.5",
     "description": "fakeimg component for react",
     "main": "build.js",
     "jest": {
@@ -40,7 +40,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:HuuDuc/fakeimg.git"
+        "url": "git@github.com:HuuDuc/react-fakeimg.git"
     },
     "keywords": [
         "react",
