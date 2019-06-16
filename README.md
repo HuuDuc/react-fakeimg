@@ -1,5 +1,11 @@
 # fakeimg
+
 Need fake image for your mockup ? **react-fakeimg** will create for you a fake image thanks to **canvas**. No **internet connection** required.
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/react-fakeimg"><img src="https://img.shields.io/npm/v/react-fakeimg.svg?style=flat-square"></a>
+  <a href="https://www.npmjs.com/package/react-fakeimg"><img src="https://img.shields.io/npm/dm/react-fakeimg.svg?style=flat-square"></a>
+</p>
 
 ## Install in your project
 
