@@ -1,0 +1,54 @@
+{
+    "author": "Stéphane Nguyen",
+    "license": "MIT",
+    "name": "react-fakeimg",
+    "version": "0.0.3",
+    "description": "fakeimg component for react",
+    "main": "build.js",
+    "jest": {
+        "moduleDirectories": [
+            "node_modules",
+            "src"
+        ],
+        "roots": [
+            "<rootDir>"
+        ],
+        "modulePaths": [
+            "<rootDir>"
+        ]
+    },
+    "scripts": {
+        "test": "jest",
+        "build": "./node_modules/.bin/babel src --presets minify --out-file build.js"
+    },
+    "peerDependencies": {
+        "prop-types": "^15.7.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.4.4",
+        "@babel/core": "^7.4.5",
+        "@babel/plugin-proposal-class-properties": "^7.4.4",
+        "@babel/preset-env": "^7.4.5",
+        "@babel/preset-react": "^7.0.0",
+        "babel-jest": "^24.8.0",
+        "babel-preset-jest": "^24.6.0",
+        "babel-preset-minify": "^0.5.0",
+        "jest": "^24.8.0",
+        "react-test-renderer": "^16.8.6"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:HuuDuc/fakeimg.git"
+    },
+    "keywords": [
+        "react",
+        "image",
+        "img",
+        "component",
+        "fake",
+        "canvas",
+        "offline"
+    ]
+}
