@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 class FakeImg extends React.Component {
 
   componentDidMount() {
-    if (this.props.onDidMount) this.props.onDidMount();
+    if (this.props.onMount) this.props.onMount();
   }
 
   componentWillUnMount() {
@@ -29,7 +29,7 @@ class FakeImg extends React.Component {
     const fontSize = Math.round(width / 10);
 
     // Text settings
-    const txt = text || `${width} x ${height}`;
+    const txt = text || `${width}x${height}`;
     ctx.fillStyle = fontColor;
     ctx.font = `500 ${fontSize < 12 ? 12 : fontSize}px sans-serif`;
     ctx.textBaseline = 'middle';
@@ -57,7 +57,7 @@ class FakeImg extends React.Component {
     } = this.props;
     
     const props = {
-      alt,
+      alt: alt || `fakeimg_${width}x${height}`,
       src: this.canvasToUrl()
     };
 
@@ -80,7 +80,7 @@ class FakeImg extends React.Component {
 
 FakeImg.propTypes = {
   // alt attribute require in HTML5
-  alt: PropTypes.string.isRequired,
+  alt: PropTypes.string,
   // Background color
   bgColor: PropTypes.string,
   // className if need className attribute
@@ -99,8 +99,8 @@ FakeImg.propTypes = {
   width: PropTypes.number.isRequired,
   // event onClick
   onClick: PropTypes.func,
-  // event onDidMount
-  onDidMount: PropTypes.func,
+  // event onMount
+  onMount: PropTypes.func,
   // event onMouseEnter
   onMouseEnter: PropTypes.func,
   // event onMouseLeave

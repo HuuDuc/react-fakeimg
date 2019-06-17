@@ -5,7 +5,7 @@
   <a href="https://www.npmjs.com/package/react-fakeimg"><img src="https://img.shields.io/npm/dm/react-fakeimg.svg?style=flat-square"></a>
 </p>
 
-Need fake image for your mockup ? **react-fakeimg** will create for you a fake image thanks to **canvas**. No **internet connection** required.
+Need fake image for your mockup ? **react-fakeimg** will create for you a fake image thanks to **canvas**. There is no HTTP Requests which means **internet connection** is not required.
 
 ## Install in your project
 
@@ -69,22 +69,22 @@ import FakeImg from 'react-fakeimg';
 
 Properties | type | Required | default | Description
 --- | --- | :---: | --- | ---
-alt | *string* | **✓** |  | alt attribute is require in HTML5 for img tag
+alt | *string* |  |  | alt attribute is require in HTML5 for img tag
 bgColor | *string* |  | #c19d67 | Background colors
 className | *string* |  |  | Add class attribute
 fontColor | *string* |  | #3a2306 | Font color
 height | *Number* | **✓** |  | Image height
 id | *string* |  |  | #id
 text | *string* |  |  | text to replace "width x height"
-style | *object* |  |  | If you want to add style
+style | *object* |  |  | If you want to add style to the image
 width | *Number* | **✓** |  | Image width
 
 #### Events list
 
 Name | type | Parameters | Required | Description
 --- | --- | :---: | --- | ---
-onDidMount | *func* | none |  | Called when the component did mount
-onUnMount | *func* | none |  | Called when the component will unMount
+onMount | *func* | none |  | Called when the component did mount
 onClick | *func* | none |  | Called when click on the component
 onMouseEnter | *func* | none |  | Called when mouse enter the component
 onMouseLeave | *func* | none |  | Called when mouse leave the component
+onUnMount | *func* | none |  | Called when the component will unMount

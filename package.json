@@ -2,11 +2,10 @@
     "author": "Stéphane Nguyen",
     "license": "MIT",
     "name": "react-fakeimg",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "fakeimg component for react",
     "main": "build.js",
     "scripts": {
-        "test": "jest",
         "build": "./node_modules/.bin/babel src --presets minify --out-file build.js"
     },
     "peerDependencies": {
@@ -20,11 +19,7 @@
         "@babel/plugin-proposal-class-properties": "^7.4.4",
         "@babel/preset-env": "^7.4.5",
         "@babel/preset-react": "^7.0.0",
-        "babel-jest": "^24.8.0",
-        "babel-preset-jest": "^24.6.0",
-        "babel-preset-minify": "^0.5.0",
-        "jest": "^24.8.0",
-        "react-test-renderer": "^16.8.6"
+        "babel-preset-minify": "^0.5.0"
     },
     "repository": {
         "type": "git",
