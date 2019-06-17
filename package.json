@@ -5,18 +5,6 @@
     "version": "1.0.0",
     "description": "fakeimg component for react",
     "main": "build.js",
-    "jest": {
-        "moduleDirectories": [
-            "node_modules",
-            "src"
-        ],
-        "roots": [
-            "<rootDir>"
-        ],
-        "modulePaths": [
-            "<rootDir>"
-        ]
-    },
     "scripts": {
         "test": "jest",
         "build": "./node_modules/.bin/babel src --presets minify --out-file build.js"

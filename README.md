@@ -1,11 +1,11 @@
-# fakeimg
-
-Need fake image for your mockup ? **react-fakeimg** will create for you a fake image thanks to **canvas**. No **internet connection** required.
+# React Fakeimg
 
 <p align="center">
   <a href="https://www.npmjs.com/package/react-fakeimg"><img src="https://img.shields.io/npm/v/react-fakeimg.svg?style=flat-square"></a>
   <a href="https://www.npmjs.com/package/react-fakeimg"><img src="https://img.shields.io/npm/dm/react-fakeimg.svg?style=flat-square"></a>
 </p>
+
+Need fake image for your mockup ? **react-fakeimg** will create for you a fake image thanks to **canvas**. No **internet connection** required.
 
 ## Install in your project
 
@@ -23,11 +23,15 @@ yarn add react-fakeimg
 
 ## How to use
 
-### Simple example
+### Import ES6
 
 ```js
 import FakeImg from 'react-fakeimg';
+```
 
+### Simple example
+
+```js
 <FakeImg
   alt="example"
   width={500}
@@ -38,8 +42,6 @@ import FakeImg from 'react-fakeimg';
 ### Text example
 
 ```js
-import FakeImg from 'react-fakeimg';
-
 <FakeImg
   alt="example"
   width={500}
@@ -51,8 +53,6 @@ import FakeImg from 'react-fakeimg';
 ### Change color example
 
 ```js
-import FakeImg from 'react-fakeimg';
-
 <FakeImg
   alt="example"
   width={500}
@@ -83,6 +83,8 @@ width | *Number* | **✓** |  | Image width
 
 Name | type | Parameters | Required | Description
 --- | --- | :---: | --- | ---
+onDidMount | *func* | none |  | Called when the component did mount
+onUnMount | *func* | none |  | Called when the component will unMount
 onClick | *func* | none |  | Called when click on the component
 onMouseEnter | *func* | none |  | Called when mouse enter the component
 onMouseLeave | *func* | none |  | Called when mouse leave the component
