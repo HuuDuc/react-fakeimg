@@ -2,7 +2,7 @@
     "author": "Stéphane Nguyen",
     "license": "MIT",
     "name": "react-fakeimg",
-    "version": "1.0.1",
+    "version": "1.0.11",
     "description": "fakeimg component for react",
     "main": "build.js",
     "scripts": {
