@@ -3,6 +3,8 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/react-fakeimg"><img src="https://img.shields.io/npm/v/react-fakeimg.svg?style=flat-square"></a>
   <a href="https://www.npmjs.com/package/react-fakeimg"><img src="https://img.shields.io/npm/dm/react-fakeimg.svg?style=flat-square"></a>
+  <a href="https://www.npmjs.com/package/react-fakeimg"><img src="https://img.shields.io/bundlephobia/min/react-fakeimg.svg?style=flat-square"></a>
+  <a href="https://www.npmjs.com/package/react-fakeimg"><img src="https://img.shields.io/bundlephobia/minzip/react-fakeimg.svg?style=flat-square"></a>
 </p>
 
 Need fake image for your mockup ? **react-fakeimg** will create for you a fake image thanks to **canvas**. There is no HTTP Requests which means **internet connection** is not required.
