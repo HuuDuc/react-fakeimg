@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node 18",
+
+  "compilerOptions": {
+    "lib": ["es2022", "dom"],
+    "module": "amd",
+    "target": "es2022",
+    "allowJs": true,
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "outDir": "lib/",
+    "declaration": true
+  },
+
+  "include": ["src/**/*"]
+}
