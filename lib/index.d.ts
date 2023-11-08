@@ -1,19 +1,19 @@
 import React from "react";
 type TypeProps = {
-    alt: string;
-    bgColor: string;
-    className: string;
-    fontColor: string;
     height: number;
-    id: string;
     text: string;
-    style: React.CSSProperties;
     width: number;
-    onClick: () => void;
-    onMount: () => void;
-    onMouseEnter: () => void;
-    onMouseLeave: () => void;
-    onUnMount: () => void;
+    alt?: string;
+    bgColor?: string;
+    className?: string;
+    fontColor?: string;
+    id?: string;
+    style?: React.CSSProperties;
+    onClick?: () => void;
+    onMount?: () => void;
+    onMouseEnter?: () => void;
+    onMouseLeave?: () => void;
+    onUnMount?: () => void;
 };
 type ImgProps = {
     alt: string;

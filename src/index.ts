@@ -1,20 +1,22 @@
 import React from "react"
 
 type TypeProps = {
-  alt: string
-  bgColor: string
-  className: string
-  fontColor: string
+  // Required
   height: number
-  id: string
   text: string
-  style: React.CSSProperties
   width: number
-  onClick: () => void
-  onMount: () => void
-  onMouseEnter: () => void
-  onMouseLeave: () => void
-  onUnMount: () => void
+  // Not required
+  alt?: string
+  bgColor?: string
+  className?: string
+  fontColor?: string
+  id?: string
+  style?: React.CSSProperties
+  onClick?: () => void
+  onMount?: () => void
+  onMouseEnter?: () => void
+  onMouseLeave?: () => void
+  onUnMount?: () => void
 }
 
 type ImgProps = {
@@ -80,7 +82,7 @@ const FakeImg = ({
     }
 
     // Rectangle
-    ctx.fillStyle = bgColor
+    if (bgColor) ctx.fillStyle = bgColor
     ctx.fillRect(0, 0, width, height)
     ctx.roundRect(0, 0, width, height, [5, 5, 5, 5]);
 
@@ -88,7 +90,7 @@ const FakeImg = ({
 
     // Text settings
     const txt = text || `${width}x${height}`
-    ctx.fillStyle = fontColor
+    if (fontColor) ctx.fillStyle = fontColor
     ctx.font = `500 ${fontSize < 12 ? 12 : fontSize}px sans-serif`
     ctx.textBaseline = "middle"
 
