@@ -2,7 +2,7 @@
     "author": "Stéphane Nguyen",
     "license": "MIT",
     "name": "react-fakeimg",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "fakeimg component for react",
     "main": "lib/index.js",
     "scripts": {

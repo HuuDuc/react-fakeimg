@@ -108,9 +108,9 @@ const FakeImg = ({
 
   if (typeof className === "string" && className !== "")
     imgProps.className = className
-  if (typeof className === "string" && id !== "") imgProps.id = id
+  if (typeof id === "string" && id !== "") imgProps.id = id
 
-  // Add event if have
+  // Add event
   if (onClick) imgProps.onClick = () => onClick()
   if (onMouseEnter) imgProps.onMouseEnter = () => onMouseEnter()
   if (onMouseLeave) imgProps.onMouseLeave = () => onMouseLeave()
